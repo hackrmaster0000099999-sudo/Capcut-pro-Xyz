@@ -58,6 +58,9 @@ export const metadata: Metadata = {
     title: 'CapCut Pro APK Download v20.6 (No Watermark, 4K Export)',
     description: 'Download CapCut Pro APK Latest Version v20.6 with all premium unlocked features, no watermark, 4K 60FPS export, and VIP filters.',
   },
+  verification: {
+    google: '731ghqyFVWhOpHvApeHRoozLkXO7bFKIWagMiUulRKs',
+  },
 };
 
 const jsonLd = {
@@ -110,6 +113,7 @@ export default function RootLayout({children}: {children: React.ReactNode}) {
   return (
     <html lang="en">
       <head>
+        <meta name="google-site-verification" content="731ghqyFVWhOpHvApeHRoozLkXO7bFKIWagMiUulRKs" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
