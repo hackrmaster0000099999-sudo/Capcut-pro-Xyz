@@ -24,6 +24,8 @@ import {
   AdsterraNativeBanner 
 } from '@/components/AdsterraAds';
 
+const DIRECT_APK_URL = 'https://apkdone.com/uploads/apps/1786079684479-capcut-pro-latest-version.apk';
+
 function DownloadContent() {
   const searchParams = useSearchParams();
   const requestedVersion = searchParams.get('version') || 'CapCut Pro APK v20.6';
@@ -108,17 +110,19 @@ function DownloadContent() {
         setDownloadCompleted(true);
         
         try {
-          const element = document.createElement('a');
-          const file = new Blob([
-            `CapCut Pro APK v20.6 (Official Android Build)\nPackage: com.lemon.lvoverseas\nVerified: CapCutPro.Org.in\nUnlocked: 4K 60FPS Lossless Export, VIP Cloud Effects, Zero Watermark, 100% Ad-Free.`
-          ], { type: 'text/plain' });
-          element.href = URL.createObjectURL(file);
-          element.download = 'CapCut_Pro_v20.6_Android.apk';
-          document.body.appendChild(element);
-          element.click();
-          document.body.removeChild(element);
+          const a = document.createElement('a');
+          a.href = DIRECT_APK_URL;
+          a.download = 'CapCut_Pro_Latest_v20.6.apk';
+          a.target = '_blank';
+          a.rel = 'noopener noreferrer';
+          document.body.appendChild(a);
+          a.click();
+          document.body.removeChild(a);
+          setTimeout(() => {
+            window.location.href = DIRECT_APK_URL;
+          }, 400);
         } catch {
-          // Fallback
+          window.location.href = DIRECT_APK_URL;
         }
       } else {
         setDownloadProgress(current);
@@ -292,9 +296,20 @@ function DownloadContent() {
               )}
 
               {downloadCompleted && (
-                <div className="mb-3 p-2.5 rounded-xl bg-emerald-950/80 border border-emerald-400 text-emerald-200 text-xs text-center font-bold flex items-center justify-center gap-1.5">
-                  <CheckCircle2 className="w-4 h-4 text-emerald-400" />
-                  <span>ডাউনলোড শুরু হয়েছে! ফাইলের নোটিফিকেশন চেক করুন।</span>
+                <div className="mb-3 p-3 rounded-xl bg-emerald-950/90 border border-emerald-400/80 text-emerald-200 text-xs text-center font-bold space-y-2">
+                  <div className="flex items-center justify-center gap-1.5">
+                    <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />
+                    <span>ডাউনলোড শুরু হয়েছে! ফাইলের নোটিফিকেশন চেক করুন।</span>
+                  </div>
+                  <a
+                    href={DIRECT_APK_URL}
+                    download="CapCut_Pro_Latest_v20.6.apk"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1 text-[11px] text-cyan-300 underline hover:text-white"
+                  >
+                    যদি ডাউনলোড স্বয়ংক্রিয়ভাবে শুরু না হয়, তবে সরাসরি এখানে ক্লিক করুন
+                  </a>
                 </div>
               )}
 

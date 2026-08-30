@@ -2,7 +2,7 @@
 
 import React, { useEffect, useRef } from 'react';
 
-export const SMART_LINK_URL = 'https://www.profitableratecpmnetwork.com/mfnxxg0sai?key=398333ad34073fbfd5c21aef20c752a3';
+export const SMART_LINK_URL = 'https://www.profitableratecpmnetwork.com/htq3nd5gy?key=7c0a1ef07cc9816b529243d598d5a996';
 
 /**
  * 300x250 Medium Rectangle Adsterra Banner (Responsive iframe container)
@@ -21,14 +21,14 @@ export function AdsterraBanner300x250({ className = '' }: { className?: string }
       <body>
         <script type="text/javascript">
           atOptions = {
-            'key' : '47240eae665538c8bdd29dcedf622e82',
+            'key' : 'bcfdfaed660eef7080f5faf1b5060d53',
             'format' : 'iframe',
             'height' : 250,
             'width' : 300,
             'params' : {}
           };
         </script>
-        <script type="text/javascript" src="https://www.highrevenueformat.com/47240eae665538c8bdd29dcedf622e82/invoke.js"></script>
+        <script type="text/javascript" src="https://www.highrevenueformat.com/bcfdfaed660eef7080f5faf1b5060d53/invoke.js"></script>
       </body>
     </html>
   `;
@@ -70,14 +70,14 @@ export function AdsterraBanner320x50({ className = '' }: { className?: string })
       <body>
         <script type="text/javascript">
           atOptions = {
-            'key' : '338d24b7f91005bf457ac54097234e86',
+            'key' : '8ded6facc2d90b434cd1c0b28a552a23',
             'format' : 'iframe',
             'height' : 50,
             'width' : 320,
             'params' : {}
           };
         </script>
-        <script type="text/javascript" src="https://www.highrevenueformat.com/338d24b7f91005bf457ac54097234e86/invoke.js"></script>
+        <script type="text/javascript" src="https://www.highrevenueformat.com/8ded6facc2d90b434cd1c0b28a552a23/invoke.js"></script>
       </body>
     </html>
   `;
@@ -103,7 +103,7 @@ export function AdsterraBanner320x50({ className = '' }: { className?: string })
 }
 
 /**
- * Native Banner Adsterra Unit (Seamless blend into content)
+ * Native Banner Adsterra Unit (Clean Non-Adult Widget)
  */
 export function AdsterraNativeBanner({ className = '' }: { className?: string }) {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -115,10 +115,10 @@ export function AdsterraNativeBanner({ className = '' }: { className?: string })
     const script = document.createElement('script');
     script.async = true;
     script.setAttribute('data-cfasync', 'false');
-    script.src = 'https://pl30535388.profitableratecpmnetwork.com/199159f5c0352ee44e0d3b4d61492adc/invoke.js';
+    script.src = 'https://pl30849976.profitableratecpmnetwork.com/44aac5a3903f417efd4dc6f90835861e/invoke.js';
 
     const div = document.createElement('div');
-    div.id = 'container-199159f5c0352ee44e0d3b4d61492adc';
+    div.id = 'container-44aac5a3903f417efd4dc6f90835861e';
 
     containerRef.current.appendChild(script);
     containerRef.current.appendChild(div);
@@ -131,7 +131,7 @@ export function AdsterraNativeBanner({ className = '' }: { className?: string })
           <span className="text-[11px] font-bold text-cyan-300 uppercase tracking-wider">
             Sponsored Recommendations
           </span>
-          <span className="text-[10px] text-gray-400">Adsterra Native</span>
+          <span className="text-[10px] text-gray-400">Sponsored</span>
         </div>
         <div ref={containerRef} className="w-full flex justify-center min-h-[90px]" />
       </div>

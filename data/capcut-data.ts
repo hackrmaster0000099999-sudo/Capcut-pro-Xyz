@@ -23,7 +23,7 @@ export const CAPCUT_OLD_VERSIONS: CapCutVersion[] = [
     releaseDate: 'June 29, 2026',
     size: '291 MB',
     androidReq: 'Android 6.0+',
-    downloadUrl: '#download-latest',
+    downloadUrl: 'https://apkdone.com/uploads/apps/1786079684479-capcut-pro-latest-version.apk',
     changes: ['Unlocked 4K 60FPS Export', 'AI Velocity Slow-Motion 2.0', 'Auto Background Removal No Lag', 'VIP Cloud Assets Unlocked'],
     isLatest: true
   },
@@ -32,7 +32,7 @@ export const CAPCUT_OLD_VERSIONS: CapCutVersion[] = [
     releaseDate: 'May 14, 2026',
     size: '284 MB',
     androidReq: 'Android 6.0+',
-    downloadUrl: '#download-20-5-2',
+    downloadUrl: 'https://apkdone.com/uploads/apps/1786079684479-capcut-pro-latest-version.apk',
     changes: ['3D Zoom Pro transitions', 'Smart Vocal Isolation', 'Reduced battery consumption on Snapdragon chips']
   },
   {
@@ -40,7 +40,7 @@ export const CAPCUT_OLD_VERSIONS: CapCutVersion[] = [
     releaseDate: 'April 02, 2026',
     size: '276 MB',
     androidReq: 'Android 5.0+',
-    downloadUrl: '#download-20-2-0',
+    downloadUrl: 'https://apkdone.com/uploads/apps/1786079684479-capcut-pro-latest-version.apk',
     changes: ['Enhanced Chroma Key precision', 'Zero ads and watermark removed', 'Fixed XML project import']
   },
   {
@@ -48,7 +48,7 @@ export const CAPCUT_OLD_VERSIONS: CapCutVersion[] = [
     releaseDate: 'February 18, 2026',
     size: '235 MB',
     androidReq: 'Android 5.0+',
-    downloadUrl: '#download-19-8-1',
+    downloadUrl: 'https://apkdone.com/uploads/apps/1786079684479-capcut-pro-latest-version.apk',
     changes: ['Optimized for low-end devices (2GB RAM)', 'Smooth 1080p rendering', 'Offline filter presets']
   },
   {
@@ -56,7 +56,7 @@ export const CAPCUT_OLD_VERSIONS: CapCutVersion[] = [
     releaseDate: 'December 20, 2025',
     size: '220 MB',
     androidReq: 'Android 5.0+',
-    downloadUrl: '#download-19-1-0',
+    downloadUrl: 'https://apkdone.com/uploads/apps/1786079684479-capcut-pro-latest-version.apk',
     changes: ['Original UI layout', 'Classic beat sync algorithm', 'High stability on older Android versions']
   }
 ];
