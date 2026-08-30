@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /api/
 
-Sitemap: https://capcut-pro-apk.vercel.app/sitemap.xml
+Sitemap: https://capcutprodownload.xyz/sitemap.xml

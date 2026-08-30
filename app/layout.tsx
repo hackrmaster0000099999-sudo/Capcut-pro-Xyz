@@ -3,7 +3,7 @@ import Script from 'next/script';
 import './globals.css'; // Global styles
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://capcut-pro-apk.vercel.app'),
+  metadataBase: new URL('https://capcutprodownload.xyz'),
   title: {
     default: 'CapCut Pro APK Download (v20.6) - Latest Version Without Watermark 2026',
     template: '%s | CapCut Pro APK',
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'CapCut Pro APK Download (v20.6) - Latest Version Without Watermark',
     description: 'Download CapCut Pro APK Latest Version v20.6 with all premium unlocked features, no watermark, 4K 60FPS export, trending templates, and error fixes.',
-    url: 'https://capcut-pro-apk.vercel.app',
+    url: 'https://capcutprodownload.xyz',
     siteName: 'CapCut Pro APK Portal',
     locale: 'en_US',
     type: 'website',
